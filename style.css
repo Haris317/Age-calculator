@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(90deg, red, green);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.container{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 400px;
+    margin: 150px 400px;
+}
+.inp{
+    margin: 50px 80px;
+    display: flex;
+    background-color: black;
+    height: 100px;
+    width: 600px;
+}
+.inp input{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size:30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    background-image: linear-gradient(90deg, red, green);
+}
+button{
+    width: 170px;
+    height: 55px;
+    font-size: 30px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+button:hover{
+    background-color: rgb(29, 190, 29);
+}
+.year{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    font-size: 30px;
+    color: white;
+}
+.h2{
+    background-color: black;
+    width: 200px;
+}
+h1{
+    margin-left: 40px;
+}
+p{
+    font-size: 50px;
+    margin-left: 30px;
+}
